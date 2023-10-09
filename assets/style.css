@@ -43,7 +43,7 @@
      }
       
       /* Style the main content */
-      .main {
+      #main {
         display: flex;
         margin: 20px;
         color: white;
@@ -73,6 +73,12 @@
         margin-top: auto;
       }
 
+      @media screen and (max-width: 768px) {
+        main,
+        nav {
+          flex-direction: column;
+        }
+          
 
-
-  }
+      }
+   }
